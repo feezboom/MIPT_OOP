@@ -1,0 +1,81 @@
+Enter testfile number (test1-4) --> 
+Enter table size --> 
+Table created and filled from test1.(Hash == 0) -->i(18104)<-->NULL
+(Hash == 1) -->bfrzjhecqt(27566)<-->yadffodtnz(859)<-->{lvxyv(9547)<-->fuig(16947)<-->NULL
+(Hash == 2) -->u{zc{pxdz(28377)<-->NULL
+(Hash == 3) -->qttlltcrxf(25135)<-->NULL
+(Hash == 4) -->bfdoyz{ueq(6604)<-->NULL
+(Hash == 5) -->NULL
+(Hash == 6) -->NULL
+(Hash == 7) -->roos(9485)<-->NULL
+(Hash == 8) -->NULL
+(Hash == 9) -->NULL
+(Hash == 10) -->NULL
+(Hash == 11) -->NULL
+(Hash == 12) -->NULL
+(Hash == 13) -->NULL
+(Hash == 14) -->lkdsvfih(19113)<-->NULL
+
+
+Enter data to insert:
+Enter key --> 
+Enter data(int) --> 
+
+(Hash == 0) -->i(18104)<-->NULL
+(Hash == 1) -->bfrzjhecqt(27566)<-->yadffodtnz(859)<-->{lvxyv(9547)<-->fuig(16947)<-->NULL
+(Hash == 2) -->u{zc{pxdz(28377)<-->NULL
+(Hash == 3) -->qttlltcrxf(25135)<-->NULL
+(Hash == 4) -->bfdoyz{ueq(6604)<-->NULL
+(Hash == 5) -->NULL
+(Hash == 6) -->NULL
+(Hash == 7) -->roos(9485)<-->NULL
+(Hash == 8) -->NULL
+(Hash == 9) -->NULL
+(Hash == 10) -->MyInsertingData(11111119)<-->NULL
+(Hash == 11) -->NULL
+(Hash == 12) -->NULL
+(Hash == 13) -->NULL
+(Hash == 14) -->lkdsvfih(19113)<-->NULL
+
+Enter key to find data --> Finded data --> 11111119
+
+Enter hash to print data -->
+
+Enter deleting string --> 
+MyInsertingData was deleted.
+
+Modified table:
+(Hash == 0) -->i(18104)<-->NULL
+(Hash == 1) -->bfrzjhecqt(27566)<-->yadffodtnz(859)<-->{lvxyv(9547)<-->fuig(16947)<-->NULL
+(Hash == 2) -->u{zc{pxdz(28377)<-->NULL
+(Hash == 3) -->qttlltcrxf(25135)<-->NULL
+(Hash == 4) -->bfdoyz{ueq(6604)<-->NULL
+(Hash == 5) -->NULL
+(Hash == 6) -->NULL
+(Hash == 7) -->roos(9485)<-->NULL
+(Hash == 8) -->NULL
+(Hash == 9) -->NULL
+(Hash == 10) -->NULL
+(Hash == 11) -->NULL
+(Hash == 12) -->NULL
+(Hash == 13) -->NULL
+(Hash == 14) -->lkdsvfih(19113)<-->NULL
+
+Table cleared!
+(Hash == 0) -->NULL
+(Hash == 1) -->NULL
+(Hash == 2) -->NULL
+(Hash == 3) -->NULL
+(Hash == 4) -->NULL
+(Hash == 5) -->NULL
+(Hash == 6) -->NULL
+(Hash == 7) -->NULL
+(Hash == 8) -->NULL
+(Hash == 9) -->NULL
+(Hash == 10) -->NULL
+(Hash == 11) -->NULL
+(Hash == 12) -->NULL
+(Hash == 13) -->NULL
+(Hash == 14) -->NULL
+
+All good.

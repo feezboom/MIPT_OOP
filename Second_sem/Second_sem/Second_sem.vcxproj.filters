@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Заголовки и исходники и тесты">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Хэш таблица">
+      <UniqueIdentifier>{d9030d38-0c8a-4e8c-8fff-6b76906ccfa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание">
+      <UniqueIdentifier>{3785f2c2-b2f0-46b7-a564-6c67c0a47448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание\Reverse Order">
+      <UniqueIdentifier>{2e745d00-5571-4185-beae-3a5d210b53f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание\Top Result">
+      <UniqueIdentifier>{1fcb3d0a-dc90-4fb0-af77-fb33a0f04e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание\Аптека">
+      <UniqueIdentifier>{81029a5f-8468-4284-a4fd-532e35f39d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание\Геометрия">
+      <UniqueIdentifier>{38a65445-493c-4b97-b67f-96ef86363b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание\Длинная арифметика">
+      <UniqueIdentifier>{e28cafb1-2c28-4f92-a085-71644e2cf360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание\Класс кватернионов">
+      <UniqueIdentifier>{dc621953-9fbe-48a1-bf1c-e0ff696fcb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание\Класс матриц">
+      <UniqueIdentifier>{08669cc3-1035-403c-a6d1-2356d914fb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание\Класс строк">
+      <UniqueIdentifier>{c04b3826-4297-4d03-95ca-e1d620ebc449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Первое задание\Представление числа">
+      <UniqueIdentifier>{c2d79ede-58b7-4d7f-b3d5-37e862d99595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовки и исходники и тесты\Второе задание">
+      <UniqueIdentifier>{09ea978a-1008-422d-b694-3a4a899db935}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test_All.cpp" />
+    <ClCompile Include="Matrix\matrixtest.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс матриц</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\strings.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс строк</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary_structure\binary_structure.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Представление числа</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion\quattest.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс кватернионов</Filter>
+    </ClCompile>
+    <ClCompile Include="LongArithmetic\BigIntTest.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Длинная арифметика</Filter>
+    </ClCompile>
+    <ClCompile Include="LongArithmetic\bigint.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Длинная арифметика</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\StringTest.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс строк</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseOrder\ReverseOrder.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Reverse Order</Filter>
+    </ClCompile>
+    <ClCompile Include="Top_Result\TopResultTest.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Top Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Pharmacy\PharmacyTest.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Аптека</Filter>
+    </ClCompile>
+    <ClCompile Include="Pharmacy\Pharmacy.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Аптека</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\circle.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Геометрия</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\geometry.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Геометрия</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\polygon.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Геометрия</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\square.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Геометрия</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\traingle.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Геометрия</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Geometry_test.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Геометрия</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Rectangle.cpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Геометрия</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Quaternion\in.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс кватернионов</Filter>
+    </Text>
+    <Text Include="Matrix\in.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс матриц</Filter>
+    </Text>
+    <Text Include="Matrix\out.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс матриц</Filter>
+    </Text>
+    <Text Include="Quaternion\out.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс кватернионов</Filter>
+    </Text>
+    <Text Include="HashTable\test1.txt">
+      <Filter>Заголовки и исходники и тесты\Хэш таблица</Filter>
+    </Text>
+    <Text Include="HashTable\test2.txt">
+      <Filter>Заголовки и исходники и тесты\Хэш таблица</Filter>
+    </Text>
+    <Text Include="HashTable\test3.txt">
+      <Filter>Заголовки и исходники и тесты\Хэш таблица</Filter>
+    </Text>
+    <Text Include="HashTable\test4.txt">
+      <Filter>Заголовки и исходники и тесты\Хэш таблица</Filter>
+    </Text>
+    <Text Include="HashTable\in.txt">
+      <Filter>Заголовки и исходники и тесты\Хэш таблица</Filter>
+    </Text>
+    <Text Include="HashTable\out.txt">
+      <Filter>Заголовки и исходники и тесты\Хэш таблица</Filter>
+    </Text>
+    <Text Include="LongArithmetic\input.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Длинная арифметика</Filter>
+    </Text>
+    <Text Include="LongArithmetic\output.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Длинная арифметика</Filter>
+    </Text>
+    <Text Include="Strings\output.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс строк</Filter>
+    </Text>
+    <Text Include="Strings\input.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс строк</Filter>
+    </Text>
+    <Text Include="Pharmacy\output.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Аптека</Filter>
+    </Text>
+    <Text Include="Pharmacy\input.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Аптека</Filter>
+    </Text>
+    <Text Include="Top_Result\output.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Top Result</Filter>
+    </Text>
+    <Text Include="Top_Result\input.txt">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Top Result</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Quaternion\quaternion.h">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс кватернионов</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion\quaternion.hpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс кватернионов</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix\matrix.h">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс матриц</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix\matrix.hpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс матриц</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\strings.h">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Класс строк</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable\HT.h">
+      <Filter>Заголовки и исходники и тесты\Хэш таблица</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable\hashtest.hpp">
+      <Filter>Заголовки и исходники и тесты\Хэш таблица</Filter>
+    </ClInclude>
+    <ClInclude Include="LongArithmetic\bigint.h">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Длинная арифметика</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable\HT.hpp">
+      <Filter>Заголовки и исходники и тесты\Хэш таблица</Filter>
+    </ClInclude>
+    <ClInclude Include="Pharmacy\pharmacy.h">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Аптека</Filter>
+    </ClInclude>
+    <ClInclude Include="Top_Result\topresult.h">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Top Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Top_Result\topresult.hpp">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Top Result</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseOrder\ReverseOrder.h">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Reverse Order</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\figures.h">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Геометрия</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\geometry.h">
+      <Filter>Заголовки и исходники и тесты\Первое задание\Геометрия</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Заголовки и исходники и тесты</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

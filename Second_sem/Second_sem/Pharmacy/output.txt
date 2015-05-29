@@ -1,0 +1,106 @@
+ColdrexPharmParacetamolpowder2015
+Name:			Coldrex
+Maker:			Pharm
+Active_substance:	Paracetamol
+Release_Form:		powder
+Price:			20
+Dosage:			15
+Name:			Coldrex
+Maker:			Pharm
+Active_substance:	Paracetamol
+Release_Form:		powder
+Price:			20
+Dosage:			15
+10132Name:			myname3
+Maker:			mymaker3
+Active_substance:	myactivesubstance3
+Release_Form:		
+Price:			103
+Dosage:			1003
+Name:			myname4
+Maker:			mymaker4
+Active_substance:	myactivesubstance3
+Release_Form:		
+Price:			104
+Dosage:			1004
+Name:			myname3
+Maker:			mymaker3
+Active_substance:	myactivesubstance3
+Release_Form:		
+Price:			103
+Dosage:			1003
+Name:			myname4
+Maker:			mymaker4
+Active_substance:	myactivesubstance3
+Release_Form:		
+Price:			104
+Dosage:			1004
+Name:			Coldrex
+Maker:			Pharm
+Active_substance:	Paracetamol
+Release_Form:		powder
+Price:			20
+Dosage:			15
+Name:			myname3
+Maker:			mymaker3
+Active_substance:	myactivesubstance3
+Release_Form:		
+Price:			103
+Dosage:			1003
+Name:			myname4
+Maker:			mymaker4
+Active_substance:	myactivesubstance3
+Release_Form:		
+Price:			104
+Dosage:			1004
+Name:			myname3
+Maker:			mymaker3
+Active_substance:	myactivesubstance3
+Release_Form:		
+Price:			103
+Dosage:			1003
+Name:			myname4
+Maker:			mymaker4
+Active_substance:	myactivesubstance3
+Release_Form:		
+Price:			104
+Dosage:			1004
+Name:			Coldrex
+Maker:			Pharm
+Active_substance:	Paracetamol
+Release_Form:		powder
+Price:			20
+Dosage:			15
+Name:			Coldrex
+Maker:			Pharm
+Active_substance:	Paracetamol
+Release_Form:		powder
+Price:			20
+Dosage:			15
+Name:			Coldrex
+Maker:			Pharm
+Active_substance:	Paracetamol
+Release_Form:		powder
+Price:			20
+Dosage:			15
+Your order consists of:
+myname3
+
+Your order consists of:
+myname3
+myname4
+Coldrex
+:		
+Price:			104
+Dosage:			1004
+Your order consists of:
+myname3
+
+aker4
+Active_substance:	myactivesubstance3
+Release_Form:		
+Price:			104
+Dosage:			1004
+Your order consists of:
+myname3
+

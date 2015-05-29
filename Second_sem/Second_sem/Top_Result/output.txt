@@ -1,0 +1,35 @@
+Name:			myname4
+Maker:			mymaker4
+Active_substance:	myactivesubstance4
+Release_Form:		ointment
+Price:			104
+Dosage:			1004
+
+Name:			myname5
+Maker:			mymaker5
+Active_substance:	myactivesubstance5
+Release_Form:		gel
+Price:			105
+Dosage:			1005
+
+Name:			myname6
+Maker:			mymaker6
+Active_substance:	myactivesubstance6
+Release_Form:		pills
+Price:			106
+Dosage:			1006
+
+Name:			myname7
+Maker:			mymaker7
+Active_substance:	myactivesubstance7
+Release_Form:		powder
+Price:			107
+Dosage:			1007
+
+Name:			myname8
+Maker:			mymaker8
+Active_substance:	myactivesubstance8
+Release_Form:		capsule
+Price:			108
+Dosage:			1008
+

@@ -1,0 +1,2 @@
+mystring1
+mystring2

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A84AEB1E-A809-4AC7-9D18-1074BFCEFBE2}</ProjectGuid>
+    <RootNamespace>Second_sem</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Binary_structure\binary_structure.cpp" />
+    <ClCompile Include="Geometry\circle.cpp" />
+    <ClCompile Include="Geometry\geometry.cpp" />
+    <ClCompile Include="Geometry\Geometry_test.cpp" />
+    <ClCompile Include="Geometry\polygon.cpp" />
+    <ClCompile Include="Geometry\Rectangle.cpp" />
+    <ClCompile Include="Geometry\square.cpp" />
+    <ClCompile Include="Geometry\traingle.cpp" />
+    <ClCompile Include="Pharmacy\Pharmacy.cpp" />
+    <ClCompile Include="Pharmacy\PharmacyTest.cpp" />
+    <ClCompile Include="Top_Result\TopResultTest.cpp" />
+    <ClInclude Include="Geometry\figures.h" />
+    <ClInclude Include="HashTable\hashtest.hpp" />
+    <ClInclude Include="HashTable\HT.hpp" />
+    <ClCompile Include="LongArithmetic\bigint.cpp" />
+    <ClCompile Include="LongArithmetic\BigIntTest.cpp" />
+    <ClCompile Include="Matrix\matrixtest.cpp" />
+    <ClCompile Include="Quaternion\quattest.cpp" />
+    <ClCompile Include="ReverseOrder\ReverseOrder.cpp" />
+    <ClCompile Include="Strings\strings.cpp" />
+    <ClCompile Include="Strings\StringTest.cpp" />
+    <ClCompile Include="Test_All.cpp" />
+    <ClInclude Include="ReverseOrder\ReverseOrder.h" />
+    <ClInclude Include="Top_Result\topresult.h" />
+    <ClInclude Include="Top_Result\topresult.hpp" />
+    <ClInclude Include="functions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="HashTable\in.txt" />
+    <Text Include="HashTable\out.txt" />
+    <Text Include="HashTable\test1.txt" />
+    <Text Include="HashTable\test2.txt" />
+    <Text Include="HashTable\test3.txt" />
+    <Text Include="HashTable\test4.txt" />
+    <Text Include="LongArithmetic\input.txt" />
+    <Text Include="LongArithmetic\output.txt" />
+    <Text Include="Matrix\in.txt" />
+    <Text Include="Matrix\out.txt" />
+    <Text Include="Pharmacy\input.txt" />
+    <Text Include="Pharmacy\output.txt" />
+    <Text Include="Quaternion\in.txt" />
+    <Text Include="Quaternion\out.txt" />
+    <Text Include="Strings\input.txt" />
+    <Text Include="Strings\output.txt" />
+    <Text Include="Top_Result\input.txt" />
+    <Text Include="Top_Result\output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Geometry\geometry.h" />
+    <ClInclude Include="HashTable\HT.h" />
+    <ClInclude Include="LongArithmetic\bigint.h" />
+    <ClInclude Include="Matrix\matrix.h" />
+    <ClInclude Include="Matrix\matrix.hpp" />
+    <ClInclude Include="Pharmacy\pharmacy.h" />
+    <ClInclude Include="Quaternion\quaternion.h" />
+    <ClInclude Include="Quaternion\quaternion.hpp" />
+    <ClInclude Include="Strings\strings.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
