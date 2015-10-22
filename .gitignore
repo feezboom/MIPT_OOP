@@ -4,3 +4,5 @@
 /third_semester/Graph/Debug
 /third_semester/Graph/Graph/Debug
 /third_semester/Graph/.vs
+*vcxproj*
+*.exe
