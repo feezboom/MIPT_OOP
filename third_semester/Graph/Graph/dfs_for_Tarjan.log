@@ -1,0 +1,39 @@
+dfs_for_Tarjan started from vertex 1
+dfs timer == 0 joined 9
+dfs timer == 1 joined 10
+dfs timer == 2 joined 3
+dfs timer == 3 joined 4
+dfs timer == 4 joined 5
+dfs timer == 5 joined 6
+dfs timer == 6 joined 7
+dfs timer == 7 joined 8
+tried to join vertex 8, but failed : color == gray
+tried to join vertex 8, but failed : color == gray
+dfs timer == 8 joined 11
+dfs timer == 9 joined 12
+dfs timer == 10 joined 2
+tried to join vertex 2, but failed : color == gray
+dfs timer == 11 joined 17
+dfs timer == 12 joined 16
+tried to join vertex 7, but failed : color == gray
+dfs timer == 13 joined 13
+dfs timer == 14 joined 14
+dfs timer == 15 joined 15
+tried to join vertex 15, but failed : color == gray
+dfs timer == 16 joined 1
+tried to join vertex 1, but failed : color == gray
+tried to join vertex 2, but failed : color == black
+tried to join vertex 3, but failed : color == black
+tried to join vertex 4, but failed : color == black
+tried to join vertex 5, but failed : color == black
+tried to join vertex 6, but failed : color == black
+tried to join vertex 7, but failed : color == black
+tried to join vertex 8, but failed : color == black
+tried to join vertex 10, but failed : color == black
+tried to join vertex 11, but failed : color == black
+tried to join vertex 12, but failed : color == black
+tried to join vertex 13, but failed : color == black
+tried to join vertex 14, but failed : color == black
+tried to join vertex 15, but failed : color == black
+tried to join vertex 16, but failed : color == black
+tried to join vertex 17, but failed : color == black
